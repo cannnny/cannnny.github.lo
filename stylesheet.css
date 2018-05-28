@@ -1,3 +1,45 @@
-.title {
-  color: #02ccba;
+body {
+  line-height: 1;
+  font-size: 16px;
+  font-family: "Rounded Mplus 1c", Raleway, sans-serif;
+  font-size: 35px;
+  color: #444;
 }
+
+.header {
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+}
+
+.header-container {
+  height: 75px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.infomation {
+  background-color: #fff;
+}
+
+.info-container {
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+
+.info-title {
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+.info-icon {
+  float: left;
+}
+
+.info-texts {
+  margin-left: 40px;
+}
+
