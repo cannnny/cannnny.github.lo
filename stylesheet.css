@@ -1,45 +1,119 @@
 body {
-  line-height: 1;
-  font-size: 16px;
-  font-family: "Rounded Mplus 1c", Raleway, sans-serif;
-  font-size: 35px;
+  font-family: "Rounded Mplus 1c";
   color: #444;
-}
-
-.header {
-  width: 100%;
-  background-color: #444;
-  color: #fff;
 }
 
 .header-container {
   height: 75px;
-  margin: 0 auto;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header h1 {
+.title {
   font-size: 40px;
+  color: #fff;
 }
 
-.infomation {
+.main {
+  padding: 35px 0 55px;
   background-color: #fff;
 }
 
 .info-container {
-  padding-top: 35px;
-  padding-bottom: 55px;
+  width: 600px;
+  margin: 0 auto;
 }
 
 .info-title {
-  padding-bottom: 10px;
   font-size: 35px;
+  margin: 30px 0;
+}
+
+.info-contents {
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .info-icon {
-  float: left;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #bbb;
 }
 
 .info-texts {
   margin-left: 40px;
 }
 
+.name {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.birth {
+  font-size: 14px;
+  color: #56b2c9;
+  margin-bottom: 15px;
+}
+
+.hobby {
+  background-size: cover;
+  background-color: #ddd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hobby-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.hobby-title {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+li img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+li {
+  text-align: center;
+  font-size: 18px;
+}
+
+li h3 {
+  margin: 20px 0 20px;
+}
+.hobby-btn {
+  padding: 5px 7px;
+  background-color: #56c2b9;
+  color: white;
+  opacity: 0.7;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.hobby-btn:hover {
+  cursor: pointer;
+  background-color: #56b2c9;
+}
+
+footer {
+  text-align: center;
+  background-color: #56b2c9;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px;
+}
